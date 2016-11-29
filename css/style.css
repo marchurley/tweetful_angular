@@ -178,3 +178,60 @@ table.stats small {
 table.stats td:first-child {
   padding-left: 18px;
 }
+
+
+/* Styling for about.html */
+
+.wrapper {
+  margin: 0 auto;
+} 
+
+.masthead {
+  background-color: #A7A37E;
+  padding: 2em;
+}
+
+.masthead h1 {
+  font-size: 3em;
+}
+
+.masthead p {
+  font-size: 1.5em;
+}
+
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.info-container {
+  margin: 7em auto;
+  width: 80%;
+  /*background-color: #046380;
+  border-radius: 10px;*/
+}
+
+.info {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 4em 1.1em;
+  box-sizing:border-box;
+
+}
+
+.info h2 {
+  text-align: center;
+}
+
+.footer {
+   position:fixed;
+   width: 1280px;
+   margin: 0 auto;
+   bottom: 0px;
+   height: 3em;
+   background:#002F2F;
+   color: #EFECCA;
+   text-align: center;
+   padding-top: 0.5em;
+}
