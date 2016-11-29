@@ -180,7 +180,7 @@ table.stats td:first-child {
 }
 
 
-/* Styling for about.html */
+/* Styling for about.html & about_us.html */
 
 .wrapper {
   margin: 0 auto;
@@ -205,10 +205,8 @@ table.stats td:first-child {
 }
 
 .info-container {
-  margin: 7em auto;
+  margin: 4em auto;
   width: 80%;
-  /*background-color: #046380;
-  border-radius: 10px;*/
 }
 
 .info {
@@ -220,8 +218,12 @@ table.stats td:first-child {
 
 }
 
-.info h2 {
+.info h2, h4 {
   text-align: center;
+}
+
+.info h4 {
+  margin-top: -0.5em;
 }
 
 .footer {
